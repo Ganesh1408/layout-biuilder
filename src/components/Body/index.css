@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+  margin-right: 50px;
+  margin-left: 50px;
+  height: 40%;
+}
+.left-nav-container {
+  background-color: #e2e8f0;
+  width: 40%;
+  padding-left: 30px;
+  flex-grow: 1;
+
+  padding-bottom: 60px;
+  margin-right: 5px;
+  height: 40vh;
+}
+.left-nav-heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #475569;
+}
+.item {
+  font-family: 'Roboto';
+  list-style-type: none;
+  font-size: 15px;
+  color: #64748b;
+}
+.content-container {
+  background-color: #f1f5f9;
+  width: 50%;
+  height: 40vh;
+  flex-grow: 1;
+
+  padding-left: 30px;
+  margin-right: 5px;
+}
+
+.content-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+}
+.desc {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #64748b;
+  width: 80%;
+}
+
+.right-nav-container {
+  background-color: #e2e8f0;
+  width: 40%;
+  flex-grow: 1;
+
+  padding-left: 30px;
+  height: 40vh;
+}
+.right-nav-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+}
+.ad1 {
+  border: 1px solid #475569;
+  height: 70px;
+  width: 100px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
